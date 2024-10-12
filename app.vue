@@ -4,15 +4,18 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import style from "./mapbox/style.json";
 
-mapboxgl.accessToken = "";
+mapboxgl.accessToken = "pk.eyJ1IjoianNlc3RyYWRhIiwiYSI6ImNpaWkzMHBnbzAwaW10bWtudjg2czRseTQifQ.Zy_bkLuDadySkJz9t37Rxg";
 
 const mapContainer = ref();
 
 onMounted(() => {
-  new mapboxgl.Map({
+  const map = new mapboxgl.Map({
     "container": mapContainer.value,
-    "style": style
+    "style": style,
+    "zoom": 2.5,
   });
+
+  map.addControl(new mapboxgl.NavigationControl());
 });
 </script>
 

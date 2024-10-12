@@ -1,4 +1,4 @@
-# New Map Template
+# GIS Webmap
 
 ## Getting Started
 

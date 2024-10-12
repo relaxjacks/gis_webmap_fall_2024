@@ -3,7 +3,7 @@
     "imports": [
         {
             "id": "basemap",
-            "url": "mapbox://styles/mapbox/standard"
+            "url": "mapbox://styles/jsestrada/cm26iqva100h401r47mqg23ig"
         }
     ],
     "sprite": "mapbox://sprites/mapbox/bright-v8",
